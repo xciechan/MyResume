@@ -1,15 +1,17 @@
 body {
-  background-color: #f6f7fb;
+  /*background-color: #f6f7fb;*/
+  background-color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
 
 .main-container {
   background-color: #fff;
-  width: 1200px;
+  width: 1200px; /*1340px; */
+  height: 1690px;  /* 1700px */
   display: flex;
   flex-direction: row-reverse;
-  margin: 40px auto;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  margin: 0px auto;
+  /*box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);*/
 }
 
 .left-side {
@@ -18,15 +20,16 @@ body {
 }
 
 .right-side {
-  padding: 80px;
-  padding-top: 60px;
+  padding: 40px;
+  padding-top: 20px; /*60px*/
+  padding-right: 40px;
 }
 
 .about-me,
 .projects,
 .employment-history,
 .education {
-  margin-bottom: 40px;
+  margin-bottom: 20px; /*40px*/
 }
 
 li {
@@ -45,7 +48,7 @@ li {
 
 .about-me-job {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #2a2a2a;
   margin-bottom: 10px;
@@ -53,10 +56,10 @@ li {
 
 .about-me-job-2 {
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #828282;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .about-me-description {
@@ -64,7 +67,7 @@ li {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  width: 670px;
+  width: 730px; /*670px;*/
 }
 
 .secondary-header {
@@ -72,7 +75,8 @@ li {
   font-size: 22px;
   line-height: 22px;
   color: #2a2a2a;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
 .projects .secondary-header {
@@ -110,7 +114,7 @@ li {
   line-height: 20px;
   color: #2a2a2a;
   margin-bottom: 16px;
-  width: 700px;
+  width: 750px;
 }
 
 .employment-title-span {
@@ -130,14 +134,16 @@ li {
   margin-bottom: 16px;
 }
 
-.employment-list {
+.employment-list
+.education-list {
   padding: 0 0 0 17px;
+  padding-left: 60px;
   margin-bottom: 30px;
   width: 600;
 }
 
 .emloyment-list-item,
-.education-study {
+.education-study-list-item {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -146,6 +152,7 @@ li {
 
 .course-list {
   padding: 0 0 0 17px;
+  padding-left: 40px;
   margin-bottom: 30px;
   width: 600;
 }
@@ -157,8 +164,17 @@ li {
   color: #595959;
 }
 
-.course-list-item-actually {
+.education-list-rating,
+.course-list-item-actually{
   color: #ff6b08;
+}
+
+.clause {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #828282;
+  padding-top: 20px;
 }
 
 .contacts,
@@ -168,7 +184,7 @@ li {
 .hobby {
   /*padding: 60px 0 0 40px; */
   padding-left: 40px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .left-side-title {
@@ -176,7 +192,7 @@ li {
   font-size: 22px;
   line-height: 1.227; /* 27px   ->   27/22=1.227 */
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .left-side-text {
@@ -219,7 +235,7 @@ li {
 .language-item,
 .hobby-item {
   color: #ff6b08;
-  margin-bottom: 10px;
+  margin-bottom:8px; /*10px*/
 }
 
 .tech-skills-text,
